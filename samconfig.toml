@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "api-python"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-ybtxad4sy7yk"
+s3_prefix = "api-python"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
